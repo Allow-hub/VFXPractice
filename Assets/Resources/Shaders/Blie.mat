@@ -37,6 +37,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTexture2D:
+        m_Texture: {fileID: 2800000, guid: 8d1f575a32ef5074c936123e128494d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -51,7 +55,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Metalic: 1
+    - _NormalStrength: 55
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _Smoothless: 1
+    - _VoronoiDissolve: 6
+    - _VoronoiScale: 5
+    - _VoronoiScale_1: 0
+    - _VoronoiScale_2: 0
+    - _VoronoiScale_3: 0
+    - _VoronoiScale_4: 0
+    - _VoronoiScale_5: 0
+    m_Colors:
+    - _MainColor: {r: 13.452337, g: 13.452337, b: 13.452337, a: 1}
+    - _VoronoiColor: {r: 0.18627632, g: 1.7169813, b: 1.4639391, a: 1}
+    - _VoronoiSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
